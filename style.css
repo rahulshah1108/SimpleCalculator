@@ -83,3 +83,24 @@ button:nth-child(20){
 	font-size: 20px;
 	background-color: #9477af;
 }
+
+@media (max-width:500px) {
+    #container{
+        width: 550px;
+        height: 950px;
+        border-radius:5px;
+        
+        background-color: #f8f8ff;
+        margin: 80px auto;	
+    }
+    #calculator{
+        width: 370px;
+        height: 720px;
+        background-color: #eaedef;
+        margin: 0 auto;
+        top: 20px;
+        position: relative;
+        border-radius: 5px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+}
